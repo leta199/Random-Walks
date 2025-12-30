@@ -33,6 +33,7 @@ Creating a random walk by sampling between gains of $-1 and $1 with the given pr
 Plotting the randomwalk via "distance" from our start point of $0  
 
 
+
 ## FUNCTION EXPLANATION  
 In ann effort to identify how the casino will perfrom we will simulate the probability of the casino generating a specfic interval of money for each month. In this case, we want to know what the probability of the casino earning between $4600 and $6000.
 
