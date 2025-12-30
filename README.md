@@ -1,11 +1,11 @@
 # Simulation - Random Walks
-This project focuses on created reuseable functions in R that can be part of a larger program. It calculates conditional probability using stochastic simulations to predict the probability of a first dice roll given the sum of two dice rolls. 
+A simulation of "Gamblers Ruin"- this is a classic statistics and modelling problem to peer into the expected amount of money won or lost based on probabilities of winning or losing a sepcfici amount of moeny through betting. This simulation utilises a constant probablity of success to simulate the our random walk with a lose or gain of $1/ bet. 
 
 This project will cover:
 
-- Simualtion creation using loops
-- Creation of reauseable function
-- Test of the function (edge cases, error messages and extreme values)
+- Setting up simulation parameters 
+- Simulating an amount won after n many bets 
+- Simualting "Gamblers Ruin" using random walks 
  
 ## HOW IT'S MADE 
 Languages used: R (version 4.5.1)    
