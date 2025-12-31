@@ -13,7 +13,6 @@ This project will cover:
 ## HOW IT'S MADE 
 Languages used: R (version 4.5.1)    
 Environement: RStudio  
-Packages: 
 
 [![Language: R](https://img.shields.io/badge/Language-R-276DC3.svg?style=flat-square)](https://www.r-project.org/)
 [![Built with RStudio](https://img.shields.io/badge/IDE-RStudio-75AADB?style=for‐the‐badge&logo=rstudio&logoColor=white)](https://www.rstudio.com/)
