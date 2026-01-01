@@ -1,7 +1,7 @@
 # Simulation - Random Walks
-A simulation of "Gamblers Ruin"- this is a classic statistics and modelling problem to peer into the expected amount of money won or lost based on probabilities of winning or losing a sepcific amount of money through betting. This simulation utilises a constant probablity of success to simulate a random walk with a lose or gain of $1/ bet. 
+A simulation of "Gamblers Ruin"- this is a classic statistics and modelling problem to peer into the expected amount of money won or lost based on probabilities of winning or losing a specific amount of money through betting. This simulation utilises a constant probablity of success to simulate a random walk with a lose or gain of $1/ bet. 
 
-We will look into a casino that has 100,000 bets a month and identify the amounts of money we expect from these bets in a month. Each bet represents a loss or gain of $1, therefore we will investigate aspects of this month for the casino such as probabilites of outcomes and amount the casino makes. 
+We will look into a casino that has 100,000 bets a month and identify the expected gains we expect from these bets in a month. Each bet represents a loss or gain of $1, therefore we will investigate aspects of this month for the casino such as probabilites of outcomes and amount the casino makes. 
 
 This project will cover:
 
@@ -20,7 +20,6 @@ Environement: RStudio
 
 ## METHODS AND TECHNIQUES  
 **Practice simulation**   
-
 Setting up the number of bets per month (100,000) as n.
 Setting up the probability of success and failure for each bet at 20/38 and 18/38.
 Defined `totalgain` as a test run of the  amount for 1 simulation run. 
@@ -34,16 +33,17 @@ Defined `totalgain` as a test run of the  amount for 1 simulation run.
 <img width="1183" height="825" alt="Image" src="https://github.com/user-attachments/assets/56b7f5bc-90ec-4551-be9e-b8ba0fb1031c" />
 
 ## FUNCTION EXPLANATION  
-In ann effort to identify how the casino will perfrom we will simulate the probability of the casino generating a specfic interval of money for each month. In this case, we want to know what the probability of the casino earning between $4600 and $6000.
+In an effort to identify how the casino will perfrom we will simulate the probability of the casino generating a specfic interval of money for each month. In this case, we want to know what the probability of the casino earning between $4600 and $6000.
 
-`sim4ot6` - a function that simulates the probability of the casino generating between $4600 and $6000 
+`sim4ot6` - a function that simulates the probability of the casino generating between $4600 and $6000. 
 
 This function: 
-has a list `list4to6` - stores an list of 100,000 values generated from the proabilities given above to earn -$1 and $1  
+Has a list `list4to6` - stores an list of 100,000 values generated from the proabilities given above to earn -$1 and $1.  
 If the sum for each list generated is between $4600 and $6000 store the number 1 and 0 if not.
 
 We then replicate this simulation 5000 times and get the mean of the outcome stored in `mean4to6` using `mean()` and `replicate()`.
-Thus we can see that the probality of 
+Thus we can see that the probability of the casino making between $4600 and $600 dollars is 99.04% 
+
  ## PROJECT STRUCTURE      
 |[Simulation- Random Walks](https://github.com/leta199/Simulation-Random-Walks)  
 |├── [Randomwalk R script](https://github.com/leta199/Simulation-Random-Walks/blob/main/Randomwalk.r)   
