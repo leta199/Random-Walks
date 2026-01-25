@@ -29,7 +29,7 @@ Defined `totalgain` as a test run of the  amount for 1 simulation run.
 - Defining the total number of bets made per month (100,000).  
 - Creating a random walk by sampling between gains of -$1 and $1 with the given probabilities and number of bets per month.  
 - Plotting the randomwalk via "distance" from our start point of $0 i.e  total amount gained or lost.
-
+  
 <img width="1183" height="825" alt="Image" src="https://github.com/user-attachments/assets/56b7f5bc-90ec-4551-be9e-b8ba0fb1031c" />
 
 ## FUNCTION EXPLANATION  
@@ -43,6 +43,8 @@ If the sum for each list generated is between $4600 and $6000 store the number 1
 
 We then replicate this simulation 5000 times and get the mean of the outcome stored in `mean4to6` using `mean()` and `replicate()`.
 Thus we can see that the probability of the casino making between $4600 and $600 dollars is 99.04% 
+
+
 
  ## PROJECT STRUCTURE      
 |[Simulation- Random Walks](https://github.com/leta199/Simulation-Random-Walks)  
