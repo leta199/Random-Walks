@@ -37,7 +37,7 @@ In an effort to identify how the casino will perform we will simulate the probab
 
 `sim4ot6` - a function that simulates the probability of the casino generating between $4600 and $6000. 
 
-This function: 
+This function:   
 Has a list `list4to6` - stores an list of 100,000 values generated from the proabilities given above to earn -$1 and $1.  
 If the sum for each list generated is between $4600 and $6000 store the number 1 and 0 if not.
 
