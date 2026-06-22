@@ -46,7 +46,7 @@ We then replicate this simulation 5000 times and get the mean of the outcome sto
 Thus we can see that the probability of the casino making between $4600 and $600 dollars is 99.04% 
 
  ## PROJECT STRUCTURE      
-|[Simulation- Random Walks](https://github.com/leta199/Simulation-Random-Walks)  
+|[Random Walks](https://github.com/leta199/Simulation-Random-Walks)  
 |├── [Randomwalk R script](https://github.com/leta199/Simulation-Random-Walks/blob/main/Randomwalk.r)   
 |└──[Random latex](https://github.com/leta199/Simulation-Random-Walks/blob/main/Random_Walk_Gamblers_Ruin.pdf)
   
